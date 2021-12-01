@@ -1,1 +1,110 @@
-<p>abertura works!</p>
+<div class="content {{ storedTheme }}">
+   <div class="toggleMode">
+      <app-dark-button 
+      [ngClass]="(storedTheme === 'theme-dark') ? 'theme-switcher
+      active' : 'theme-switcher'" 
+      (click)="setTheme()">
+      </app-dark-button> 
+   </div>
+   
+
+   <p>abertura works!</p>
+
+   
+
+   <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+      </ol>
+    </nav>
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>
+
+
+
+
+
+
+   <div class="container">
+      <form>
+         <div class="mb-3">
+           <label for="exampleInputEmail1" class="form-label">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         </div>
+
+         <div class="mb-3">
+           <label for="exampleInputPassword1" class="form-label">Password</label>
+           <input type="password" class="form-control" id="exampleInputPassword1">
+         </div>
+
+         <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+         <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+   </div>
+   <br>
+
+   <div class="container">
+
+      <table class="table table-test">
+         <thead class="tabela-header">
+           <tr>
+             <th scope="col">#</th>
+             <th scope="col">First</th>
+             <th scope="col">Last</th>
+             <th scope="col">Handle</th>
+           </tr>
+         </thead>
+
+         <tbody class="tabela-corpo">
+           <tr>
+             <th scope="row">1</th>
+
+             <td>Mark</td>
+             <td>Otto</td>
+             <td>@mdo</td>
+           </tr>
+           <tr>
+             <th scope="row">2</th>
+
+             <td>Jacob</td>
+             <td>Thornton</td>
+             <td>@fat</td>
+           </tr>
+           <tr>
+             <th scope="row">3</th>
+
+             <td>Larry the Bird</td>
+             <td>Maderoff</td>
+             <td>@twitter</td>
+           </tr>
+         </tbody>
+
+      </table>
+
+   </div>
+   
+
+
+
+
+</div>
+
+
+

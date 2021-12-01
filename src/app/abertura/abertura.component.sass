@@ -1,0 +1,32 @@
+@import '../../styles.sass'
+
+.content
+   background-color: $bg-light
+   color: $text-light
+
+   .toggleMode
+      position: absolute
+      top: 30px
+      right: 30px
+
+// Dark Mode
+.content.theme-dark 
+   background-color: $bg-dark
+   color: $text-dark 
+
+   .form-control
+      background-color: #212529 
+      border: 1px solid $gray
+         
+   .form-control:focus
+      background-color: #212529
+      color: white
+
+      a
+         text-decoration: none
+
+   .tabela-header
+      color: $text-dark
+
+   .tabela-corpo
+         color: $gray
