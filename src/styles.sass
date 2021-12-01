@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+//Light Theme
+$bg-light: #fff
+$text-light: #222
+$card-light: #F8F9FA
+
+
+//Dark Theme
+$bg-dark: #222
+$text-dark: #fff
+$gray: gray
+
+
+//Color Class Buttom
+$btn-blue: #2B2AFC
+
+.btn-primary
+   background-color: $btn-blue !important
+   border-color: $btn-blue !important
+
+
+*
+   margin: 0
+   padding: 0
+   box-sizing: border-box
+
+html
+   height: 100%
+
+body
+   backgorund-color: $bg-dark
+   color: $text-light
+
+
+@import "node_modules/bootstrap/scss/bootstrap"
