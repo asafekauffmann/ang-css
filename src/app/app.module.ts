@@ -9,6 +9,7 @@ import { DarkButtonComponent } from './shared/dark-button/dark-button.component'
 import { AberturaComponent } from './abertura/abertura.component';
 import { EncapComponent } from './abertura/encap/encap.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
