@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { DarkButtonComponent } from './shared/dark-button/dark-button.component';
+import { AberturaComponent } from './abertura/abertura.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DarkButtonComponent
+    DarkButtonComponent,
+    AberturaComponent
   ],
   imports: [
     BrowserModule,
